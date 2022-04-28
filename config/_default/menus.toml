@@ -22,9 +22,14 @@ url="blog/"
 weight=2
 
 [[main]]
+name="测试迷思"
+url="tags/测试迷思/"
+weight=3
+
+[[main]]
 name = "Pages"
 url = "#"
-weight = 3
+weight = 9
 hasChildren = true
 
   [[main]]
