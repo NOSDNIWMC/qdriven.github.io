@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>selenium on Fluent QA Blog</title><link>https://qdriven.github.io/tags/selenium/</link><description>Recent content in selenium on Fluent QA Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 24 Sep 2015 10:31:11 +0800</lastBuildDate><atom:link href="https://qdriven.github.io/tags/selenium/index.xml" rel="self" type="application/rss+xml"/><item><title>Page Factory in Selenium</title><link>https://qdriven.github.io/blog/automation/2015-09-24-page-factory/</link><pubDate>Thu, 24 Sep 2015 10:31:11 +0800</pubDate><guid>https://qdriven.github.io/blog/automation/2015-09-24-page-factory/</guid><description>本文主要用来分析Page Factory实现的原理以及一些扩展的可能性。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>selenium on Fluent QA Blog</title>
+    <link>https://qdriven.github.io/tags/selenium/</link>
+    <description>Recent content in selenium on Fluent QA Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Sep 2015 10:31:11 +0800</lastBuildDate><atom:link href="https://qdriven.github.io/tags/selenium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Page Factory in Selenium</title>
+      <link>https://qdriven.github.io/blog/automation/2015-09-24-page-factory/</link>
+      <pubDate>Thu, 24 Sep 2015 10:31:11 +0800</pubDate>
+      
+      <guid>https://qdriven.github.io/blog/automation/2015-09-24-page-factory/</guid>
+      <description>本文主要用来分析Page Factory实现的原理以及一些扩展的可能性。
 Page Factory 的例子 Selenium Page Factory Wiki
 首先解释一下这个例子：
-使用注解描述元素定位 使用 PageFactory.initElements(driver, page); public class GoogleSearchPage { // The element is now looked up using the name attribute @FindBy(how = How.</description></item></channel></rss>
+ 使用注解描述元素定位 使用 PageFactory.initElements(driver, page);   public class GoogleSearchPage {  // The element is now looked up using the name attribute  @FindBy(how = How.</description>
+    </item>
+    
+  </channel>
+</rss>

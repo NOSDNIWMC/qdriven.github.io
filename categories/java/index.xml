@@ -1,9 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>java on Fluent QA Blog</title><link>https://qdriven.github.io/categories/java/</link><description>Recent content in java on Fluent QA Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 24 Jul 2018 22:11:05 +0000</lastBuildDate><atom:link href="https://qdriven.github.io/categories/java/index.xml" rel="self" type="application/rss+xml"/><item><title>使用JunitPerf进行性能测试</title><link>https://qdriven.github.io/blog/automation/junit-perf/</link><pubDate>Tue, 24 Jul 2018 22:11:05 +0000</pubDate><guid>https://qdriven.github.io/blog/automation/junit-perf/</guid><description>以下简单介绍一下如何使用JunitPerf进行性能测试，JunitPerf是基于JUnit4的一个单元性能测试插件，对于会远程调用API测试比较合适，如果想要比较nanosecond 延迟的则需要使用JMH.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on Fluent QA Blog</title>
+    <link>https://qdriven.github.io/categories/java/</link>
+    <description>Recent content in java on Fluent QA Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Jul 2018 22:11:05 +0000</lastBuildDate><atom:link href="https://qdriven.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用JunitPerf进行性能测试</title>
+      <link>https://qdriven.github.io/blog/automation/junit-perf/</link>
+      <pubDate>Tue, 24 Jul 2018 22:11:05 +0000</pubDate>
+      
+      <guid>https://qdriven.github.io/blog/automation/junit-perf/</guid>
+      <description>以下简单介绍一下如何使用JunitPerf进行性能测试，JunitPerf是基于JUnit4的一个单元性能测试插件，对于会远程调用API测试比较合适，如果想要比较nanosecond 延迟的则需要使用JMH.
 JunitPerf 依赖声明 此例子假设使用MAVEN管理项目，所以在POM文件中添加：
-&amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;junit&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;junit&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;4.12&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.github.noconnor&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;junitperf&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.9.1&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; 构建压力测试类 假设你想衡量DemoPerfService 类中的getServiceId方法：</description></item><item><title>Page Factory in Selenium</title><link>https://qdriven.github.io/blog/automation/2015-09-24-page-factory/</link><pubDate>Thu, 24 Sep 2015 10:31:11 +0800</pubDate><guid>https://qdriven.github.io/blog/automation/2015-09-24-page-factory/</guid><description>本文主要用来分析Page Factory实现的原理以及一些扩展的可能性。
+&amp;lt;dependency&amp;gt;  &amp;lt;groupId&amp;gt;junit&amp;lt;/groupId&amp;gt;  &amp;lt;artifactId&amp;gt;junit&amp;lt;/artifactId&amp;gt;  &amp;lt;version&amp;gt;4.12&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt;  &amp;lt;groupId&amp;gt;com.github.noconnor&amp;lt;/groupId&amp;gt;  &amp;lt;artifactId&amp;gt;junitperf&amp;lt;/artifactId&amp;gt;  &amp;lt;version&amp;gt;1.9.1&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; 构建压力测试类 假设你想衡量DemoPerfService 类中的getServiceId方法：</description>
+    </item>
+    
+    <item>
+      <title>Page Factory in Selenium</title>
+      <link>https://qdriven.github.io/blog/automation/2015-09-24-page-factory/</link>
+      <pubDate>Thu, 24 Sep 2015 10:31:11 +0800</pubDate>
+      
+      <guid>https://qdriven.github.io/blog/automation/2015-09-24-page-factory/</guid>
+      <description>本文主要用来分析Page Factory实现的原理以及一些扩展的可能性。
 Page Factory 的例子 Selenium Page Factory Wiki
 首先解释一下这个例子：
-使用注解描述元素定位 使用 PageFactory.initElements(driver, page); public class GoogleSearchPage { // The element is now looked up using the name attribute @FindBy(how = How.</description></item><item><title>TestNG 报告定制最简单的原理</title><link>https://qdriven.github.io/blog/automation/2015-09-24-testng-simple-report/</link><pubDate>Thu, 24 Sep 2015 10:31:11 +0800</pubDate><guid>https://qdriven.github.io/blog/automation/2015-09-24-testng-simple-report/</guid><description>如果需要定制TestNG的测试报告,可以先想一下首先需要什么的数据,其实最简单的数据就是测试用例成功失败的数据, 那么实际上TestNG提供了ITestListener的接口可以让你获取这些测试数据. 同时IReporter 接口可以让用户在调用最后自己生成测试报告.
+ 使用注解描述元素定位 使用 PageFactory.initElements(driver, page);   public class GoogleSearchPage {  // The element is now looked up using the name attribute  @FindBy(how = How.</description>
+    </item>
+    
+    <item>
+      <title>TestNG 报告定制最简单的原理</title>
+      <link>https://qdriven.github.io/blog/automation/2015-09-24-testng-simple-report/</link>
+      <pubDate>Thu, 24 Sep 2015 10:31:11 +0800</pubDate>
+      
+      <guid>https://qdriven.github.io/blog/automation/2015-09-24-testng-simple-report/</guid>
+      <description>如果需要定制TestNG的测试报告,可以先想一下首先需要什么的数据,其实最简单的数据就是测试用例成功失败的数据, 那么实际上TestNG提供了ITestListener的接口可以让你获取这些测试数据. 同时IReporter 接口可以让用户在调用最后自己生成测试报告.
 所以其实只要用一个类实现ITestListener,IReporter就可以了.
 ITestListener,IReporter实现 一下是我一个最简单的实现, 实际上TestNG开放出来的这些监听器,主要是让你可以获取TestNG 测试容器中运行测试的数据,上下文. 关于代码里面的ITestResult, xmlSuites,suites 可以自行查找
-public class TestNGSimpleReport implements ITestListener, IReporter { private List&amp;lt;String&amp;gt; testPassed = Lists.</description></item></channel></rss>
+public class TestNGSimpleReport implements ITestListener, IReporter {  private List&amp;lt;String&amp;gt; testPassed = Lists.</description>
+    </item>
+    
+  </channel>
+</rss>
