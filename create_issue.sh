@@ -1,5 +1,5 @@
 #!/bin/sh
-
+echo "create issue by shell"
 CONTENT=`cat $1`
 echo $CONTENT
 TITLE=$2
