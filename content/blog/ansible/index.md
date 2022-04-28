@@ -1,8 +1,8 @@
 ---
 title: "Ansible 60分钟入门"
 description: "ansible automation"
-categories: [automation]
-tags: [ansible,ci-cd,automation]
+categories: [devops]
+tags: [ansible,ci-cd,devops,python]
 date: 2016-03-30T13:15:11+08:00
 type: "regular" # available types: [featured/regular]
 draft: false
@@ -12,8 +12,13 @@ draft: false
 
 Ansible可以用来帮助IT自动化，关于ansible的一点说明:
 ```
-Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.
+Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain.
+Automate everything from code deployment to network configuration 
+to cloud management, in a language that approaches plain English, using SSH, 
+with no agents to install on remote systems. 
 ```
+
+[ansible-docs](https://docs.ansible.com)
 
 ### Installation- 安装
 

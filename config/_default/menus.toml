@@ -6,15 +6,16 @@ name = "Home"
 url = ""
 weight = 1
 
-[[main]]
-name = "About"
-url = "about/"
-weight = 10
+# [[main]]
+# name = "About"
+# url = "about/"
+# weight = 10
 
-[[main]]
-name = "Contact"
-url = "contact/"
-weight = 11
+# [[main]]
+# name = "Contact"
+# url = "contact/"
+# weight = 11
+
 [[main]]
 name="Blogs"
 url="blog/"
@@ -44,17 +45,17 @@ name = "Home"
 url = "/"
 weight = 1
 
-[[footer]]
-name = "About"
-url = "about/"
-weight = 10
+# [[footer]]
+# name = "About"
+# url = "about/"
+# weight = 10
 
-[[footer]]
-name = "Contact"
-url = "contact/"
-weight = 11
+# [[footer]]
+# name = "Contact"
+# url = "contact/"
+# weight = 11
 
-[[footer]]
-name = "Privacy Policy"
-url = "privacy-policy/"
-weight = 15
+# [[footer]]
+# name = "Privacy Policy"
+# url = "privacy-policy/"
+# weight = 15

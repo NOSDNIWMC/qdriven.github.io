@@ -50,7 +50,7 @@ title_large = "Welcome **!**"
 title_small = "to Fluent-QA blog"
 image = "images/banner.png"
 background_image = "/images/banner-bg-shape.svg"
-content = "10+年测试人生的小结,无数动手实践的教程.\n 这里有测试管理,自动化测试,测试工具平台开发的实践,\n 让我们动手起来！"
+content = "测试人生的小结,无数动手实践的教程.\n 这里有测试管理,自动化测试,测试工具平台开发的实践,\n 让我们动手起来！"
 button_label = "欢迎来到FLUENT-QA"
 button_link = "blog/"
 
