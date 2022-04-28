@@ -8,7 +8,7 @@ type: "featured" # available types: [featured/regular]
 draft: false
 ---
 
-## github个人网站自建
+github个人网站自建规划：
 
 - hugo-theme
 - icon : https://www.iconfont.cn/
