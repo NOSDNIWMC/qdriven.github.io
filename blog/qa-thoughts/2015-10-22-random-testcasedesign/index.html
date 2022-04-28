@@ -1,0 +1,7 @@
+<div class=card><div class="mb-4 position-relative"><ul class="list-inline card-badge"><li class=list-inline-item><a href=/categories/testing/ class="badge badge-primary py-1">Testing</a></li><li class=list-inline-item><a href=/categories/thoughts/ class="badge badge-primary py-1">Thoughts</a></li></ul></div><div class=card-body><h3 class=h6><a class=title-linked href=/blog/qa-thoughts/2015-10-22-random-testcasedesign/>测试用例设计- 随机指定一个产品的测试</a></h3><ul class="list-inline card-meta d-flex align-items-center mb-3"><li class="list-inline-item d-flex align-items-center"><i class="fas fa-user me-2"></i>
+<a href=/about/>Patrik</a></li><li class="list-inline-item d-flex align-items-center"><i class="fas fa-calendar me-2"></i>
+<span>October 22, 2015</span></li></ul><p class="card-text mb-4">有时面试的时候会随机指定一个产品进行测试,比如一个电梯,你会如何设计测试用例？这个问题很发散,更多的是看应聘者的条理 和分析能力.
+本质上一个电梯是一个太大的范畴，实际测试的过程中很少一下子会有这么巨大的功能让你测试的。 与其说让你设计测试用例，其实好不如说让你想一个电梯有什么功能,然后根据功能再来考虑测试用例,所以更多的 是考察思路,在实际的测试工作中,如果突然有个人说我今天完成了一个电梯的功能,找个人给我测一下吧。 那么多半这个项目就是个让测试欲哭无泪的项目。
+不过既然面试有人问这样的问题，那么就分析分析吧，以下我是把电梯转化为类似互联网产品来做的分析， 完全是个人想法,一定有非常多欠缺。
+后端服务组件和客户端分离(Client-Server/MVC) 首先其实对把一个电梯分成不同的组件：
+驱动服务: 可以使电梯上下行(后台服务) 门: 开门关门(后台服务) 电梯操作面板: 人机界面,担当用户和电梯的一个中间人作用,将用户操作转化为指令来控制电梯 (app/web page) (如果简单的话可能操作命令转换就都在这个地方了，如果复杂可能还有一个控制系统层) 指令控制系统(调度系统,监听器或者Queue) 呼叫监控系统:(可以暂时不考虑) 这里就先考虑简单的情况，电梯操作面板模块之内将操作转换成指令给电梯的驱动和门服务</p><a href=/blog/qa-thoughts/2015-10-22-random-testcasedesign/ class="btn btn-outline-primary btn-sm">Read more</a></div></div>
