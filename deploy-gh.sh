@@ -13,3 +13,4 @@ git push
 
 echo "update main branch ...."
 git push
+git checkout main
